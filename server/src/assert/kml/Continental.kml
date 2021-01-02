@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Microsoft</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>78.339490,17.418008,100 78.339964,17.417756,100 78.339297,17.416708,100 78.338832,17.417036,100 78.339490,17.418008,100</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      </Polygon>
+  </Placemark>
+</kml>

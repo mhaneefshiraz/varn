@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Highlighted Icon</name>
+    <description>Place your mouse over the icon to see it display the new icon</description>
+    <Style id="highlightPlacemark">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="normalPlacemark">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="exampleStyleMap">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#normalPlacemark</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#highlightPlacemark</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Kushok Bakula Airport</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.555461,34.144576,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hanfi Masjid Sharif</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.578826,34.116988,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ladakh Dharma Centre</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.588361,34.116544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Spituk Gompa</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.526091,34.127705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leh Palace</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.586586,34.168978,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shanti Stupa</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.574711,34.176495,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prayer Wheel</name>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>77.557124,34.177999,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

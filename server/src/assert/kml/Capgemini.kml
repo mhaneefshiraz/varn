@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Capgemini</name>
+    <description>Here is a KML example</description>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+ <coordinates>78.338049,17.421658,100 78.340820,17.419981,100 78.339755,17.418365,100 78.336994,17.419969,100 78.338049,17.421658,100</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      </Polygon>
+  </Placemark>
+</kml>

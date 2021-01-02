@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Hayat</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+ <coordinates>78.340889,17.419993,100 78.343324,17.418566,100 78.342335,17.417058,100 78.339815,17.418350,100 78.340889,17.419993,100</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      </Polygon>
+  </Placemark>
+</kml>
